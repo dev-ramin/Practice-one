@@ -28,6 +28,9 @@ p{
     margin-top: 20px;
     margin-bottom: 30px;
 }
+#Service-heading{
+    padding-top: 30px;
+}
 .link-button{
     font-weight: 700;
     color: white;
@@ -92,4 +95,48 @@ p{
     margin-top: 10px;
     margin-left: 32px;
     transition: 400ms;
+}
+.image-card img:hover{
+    transform: scale(1.03);
+}
+.section-four{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 15px;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+.four-section{
+    color: white;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+.section-five{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fifth-section{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+footer p{
+    color: aliceblue;
+    padding: 25px;
+    margin: auto;
 }
