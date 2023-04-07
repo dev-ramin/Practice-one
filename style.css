@@ -10,7 +10,6 @@
     background-image: url(img/image4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 50px;
     display: flex;
 }
 .first-test{
@@ -25,8 +24,7 @@ h1{
 }
 p{
     color: black;
-}
-h1, p{
+    font-weight: 500;
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -43,4 +41,40 @@ h1, p{
     color: brown;
     background-color: aliceblue;
     transition: .2s;
+}
+.section-two{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.second-section{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+.third-section{
+    display: flex;
+}
+.box{
+    width: 20%;
+    height: 180px;
+    padding: 10px;
+    margin-left: 3%;
+    background-color: aquamarine;
+    border-radius: 0 40px 40px 40px;
+}
+.box:hover{
+    background-color: goldenrod;
+    transition: .2s;
+}
+.section-three{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 350px;
+}
+#heading-two{
+    margin: 40px 30px;
 }
